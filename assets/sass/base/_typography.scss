@@ -1,0 +1,21 @@
+// /* Base Typography*/
+// h1, h2, h3, h4, h5, h6 
+//     { font-family: $open-sans;
+// }
+h1{
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $xx-large;
+    color: $white;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+
+
+}
+p 
+    {
+        font-family: $roboto;
+        font-weight: $thin;
+        font-size: $medium;
+    
+    }

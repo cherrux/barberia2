@@ -1,0 +1,20 @@
+
+.herosection  {
+    height: 100vh;
+    background-image: url("../images/post-image.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    justify-content: center;
+    align-items: center;
+  }
+  .flecha{
+      position: absolute;
+      bottom: 0;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      font-size: 50px;
+      text-shadow: 1px 1px 1px black;
+  }
