@@ -11025,10 +11025,22 @@ img {
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 70px;
   color: #FFF;
   font-style: italic;
   text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #121619;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #D76C69;
 }
 
 p {
@@ -11045,12 +11057,23 @@ body {
 
 .barra-navegacion {
   background-color: #121619;
-  padding: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .logo__image {
   width: 75px;
   height: 45px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #DE8684;
 }
 
 .herosection {
@@ -11074,6 +11097,20 @@ body {
   text-shadow: 1px 1px 1px black;
 }
 
+.herosection__title {
+  text-align: center;
+  padding-left: 10.5vw;
+  padding-right: 10.5vw;
+  font-size: 45px;
+}
+
+.herosection__title_xl {
+  text-align: center;
+  padding-left: 27.5vw;
+  padding-right: 27.5vw;
+  font-size: 70px;
+}
+
 .blog-article {
   padding-bottom: 80px;
   padding-top: 30px;
@@ -11084,12 +11121,14 @@ body {
 .autor {
   padding-bottom: 80px;
   padding-top: 30px;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .autora__imagen {
   border-radius: 100%;
+  border: 1px;
+  border-color: black;
 }
 
 .blog-pagination {
@@ -11097,7 +11136,7 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 40px;
+  background-color: #D1D1D1;
 }
 .blog-pagination .page-item.active .page-link {
   z-index: 3;

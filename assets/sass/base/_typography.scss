@@ -5,10 +5,24 @@
 h1{
     font-family: $playfair;
     font-weight: $bold;
-    font-size: $xx-large;
     color: $white;
     font-style: italic;
     text-shadow: 1px 1px 1px black;
+
+
+}
+h2{
+    font-family: $playfair;
+    font-weight: $regular;
+    color: $eerieblack;
+    font-style: italic;
+
+}
+
+h3{
+    font-family: $roboto;
+    font-weight: $thin;
+    color: $ruddypink;
 
 
 }

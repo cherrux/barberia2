@@ -3,13 +3,14 @@
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: $lightgray;
 
-    border-radius: 40px;
     .page-item.active .page-link {
         z-index: 3;
         color: #fff;
         background-color: $nickel;
         border-color: #DDDDDD;
+
     }
     .page-link {
 
@@ -18,4 +19,3 @@
         border: 1px solid #DDDDDD;
     }
 }
-
